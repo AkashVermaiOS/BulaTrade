@@ -12,6 +12,8 @@
 		97D9CB1D1F94D43B007E3B26 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D9CB1C1F94D43A007E3B26 /* CommonUtility.swift */; };
 		C872E9581FBEFC4C00092E14 /* DemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872E9561FBEFC4C00092E14 /* DemoController.swift */; };
 		C872E9591FBEFC4C00092E14 /* DemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C872E9571FBEFC4C00092E14 /* DemoController.xib */; };
+		C872E95C1FBEFE6300092E14 /* Demo2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872E95A1FBEFE6300092E14 /* Demo2Controller.swift */; };
+		C872E95D1FBEFE6300092E14 /* Demo2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = C872E95B1FBEFE6300092E14 /* Demo2Controller.xib */; };
 		FAA766481F7639B40044002F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA766471F7639B40044002F /* AppDelegate.swift */; };
 		FAA7664A1F7639B40044002F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA766491F7639B40044002F /* LoginController.swift */; };
 		FAA7664D1F7639B40044002F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA7664B1F7639B40044002F /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		C00463FEDEE79C5A841D8046 /* Pods-BulaTrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulaTrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BulaTrade/Pods-BulaTrade.debug.xcconfig"; sourceTree = "<group>"; };
 		C872E9561FBEFC4C00092E14 /* DemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
 		C872E9571FBEFC4C00092E14 /* DemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoController.xib; sourceTree = "<group>"; };
+		C872E95A1FBEFE6300092E14 /* Demo2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2Controller.swift; sourceTree = "<group>"; };
+		C872E95B1FBEFE6300092E14 /* Demo2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo2Controller.xib; sourceTree = "<group>"; };
 		F70DAB26B0440B2A605D3ECC /* Pods-BulaTrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulaTrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-BulaTrade/Pods-BulaTrade.release.xcconfig"; sourceTree = "<group>"; };
 		FAA766441F7639B40044002F /* BulaTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulaTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA766471F7639B40044002F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				FAA7669B1F77EF2A0044002F /* MenuController.swift */,
 				C872E9561FBEFC4C00092E14 /* DemoController.swift */,
 				C872E9571FBEFC4C00092E14 /* DemoController.xib */,
+				C872E95A1FBEFE6300092E14 /* Demo2Controller.swift */,
+				C872E95B1FBEFE6300092E14 /* Demo2Controller.xib */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				C872E9591FBEFC4C00092E14 /* DemoController.xib in Resources */,
 				FAA766551F7639B40044002F /* LaunchScreen.storyboard in Resources */,
 				FAA766521F7639B40044002F /* Assets.xcassets in Resources */,
+				C872E95D1FBEFE6300092E14 /* Demo2Controller.xib in Resources */,
 				FAA7664D1F7639B40044002F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +277,7 @@
 				FAA7664A1F7639B40044002F /* LoginController.swift in Sources */,
 				FAA766481F7639B40044002F /* AppDelegate.swift in Sources */,
 				97D9CB1B1F94AABE007E3B26 /* APICall.swift in Sources */,
+				C872E95C1FBEFE6300092E14 /* Demo2Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
