@@ -14,6 +14,7 @@ class DemoController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("now test plz")
     }
 
     override func didReceiveMemoryWarning() {
