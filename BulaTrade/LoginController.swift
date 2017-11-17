@@ -27,7 +27,7 @@ class LoginController: UIViewController {
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        let m = "test"
         APICall.getAppID( { (returnObject, error) -> Void in
             
             if returnObject == nil {

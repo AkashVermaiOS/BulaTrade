@@ -10,6 +10,8 @@
 		1D605F7005B8D77549A7CFAF /* Pods_BulaTrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768B108CE4707A81F438EA76 /* Pods_BulaTrade.framework */; };
 		97D9CB1B1F94AABE007E3B26 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D9CB1A1F94AABE007E3B26 /* APICall.swift */; };
 		97D9CB1D1F94D43B007E3B26 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D9CB1C1F94D43A007E3B26 /* CommonUtility.swift */; };
+		C872E9581FBEFC4C00092E14 /* DemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872E9561FBEFC4C00092E14 /* DemoController.swift */; };
+		C872E9591FBEFC4C00092E14 /* DemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C872E9571FBEFC4C00092E14 /* DemoController.xib */; };
 		FAA766481F7639B40044002F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA766471F7639B40044002F /* AppDelegate.swift */; };
 		FAA7664A1F7639B40044002F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA766491F7639B40044002F /* LoginController.swift */; };
 		FAA7664D1F7639B40044002F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA7664B1F7639B40044002F /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		97D9CB1A1F94AABE007E3B26 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		97D9CB1C1F94D43A007E3B26 /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
 		C00463FEDEE79C5A841D8046 /* Pods-BulaTrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulaTrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BulaTrade/Pods-BulaTrade.debug.xcconfig"; sourceTree = "<group>"; };
+		C872E9561FBEFC4C00092E14 /* DemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
+		C872E9571FBEFC4C00092E14 /* DemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoController.xib; sourceTree = "<group>"; };
 		F70DAB26B0440B2A605D3ECC /* Pods-BulaTrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulaTrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-BulaTrade/Pods-BulaTrade.release.xcconfig"; sourceTree = "<group>"; };
 		FAA766441F7639B40044002F /* BulaTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulaTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA766471F7639B40044002F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 			children = (
 				FAA7669A1F77EF2A0044002F /* CustomSideMenuController.swift */,
 				FAA7669B1F77EF2A0044002F /* MenuController.swift */,
+				C872E9561FBEFC4C00092E14 /* DemoController.swift */,
+				C872E9571FBEFC4C00092E14 /* DemoController.xib */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C872E9591FBEFC4C00092E14 /* DemoController.xib in Resources */,
 				FAA766551F7639B40044002F /* LaunchScreen.storyboard in Resources */,
 				FAA766521F7639B40044002F /* Assets.xcassets in Resources */,
 				FAA7664D1F7639B40044002F /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 				FAA766901F76B7A30044002F /* HomeController.swift in Sources */,
 				FAA766501F7639B40044002F /* BulaTrade.xcdatamodeld in Sources */,
 				FAA7669C1F77EF2A0044002F /* CustomSideMenuController.swift in Sources */,
+				C872E9581FBEFC4C00092E14 /* DemoController.swift in Sources */,
 				FAA7664A1F7639B40044002F /* LoginController.swift in Sources */,
 				FAA766481F7639B40044002F /* AppDelegate.swift in Sources */,
 				97D9CB1B1F94AABE007E3B26 /* APICall.swift in Sources */,
