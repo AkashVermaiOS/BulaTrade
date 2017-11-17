@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import SideMenuController
 
-class HomeController: UIViewController {
+
+class HomeController: UIViewController,SideMenuControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        sideMenuController?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +25,19 @@ class HomeController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnSideMenu(_ sender: Any) {
+        
+        sideMenuController?.toggle()
+        
     }
-    */
 
+    
+    // MARK: - SideMenu Delegates
+    func sideMenuControllerDidHide(_ sideMenuController: SideMenuController) {
+        print(#function)
+    }
+    
+    func sideMenuControllerDidReveal(_ sideMenuController: SideMenuController) {
+        print(#function)
+    }
 }

@@ -10,6 +10,7 @@ import UIKit
 
 class SignUpController: UIViewController {
 
+    //MARK: ViewController LifeCycles
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,16 +21,13 @@ class SignUpController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+   
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: IBActions
+    @IBAction func btnBackController(_ sender: Any)
+    {
+        self.navigationController?.popViewController(animated: true)
     }
-    */
-
+    @IBAction func btnSignUpAction(_ sender: Any) {
+    }
 }

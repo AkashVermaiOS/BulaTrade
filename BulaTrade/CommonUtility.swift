@@ -1,9 +1,9 @@
 //
 //  CommonUtility.swift
-//  Rendezvous
+//  BulaTrade
 //
-//  Created by Fahad on 2/8/17.
-//  Copyright © 2017 TrivialWorks. All rights reserved.
+//  Created by macbook on 23/09/17.
+//  Copyright © 2017 Akash Verma. All rights reserved.
 //
 
 import Foundation
